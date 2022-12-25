@@ -1,0 +1,315 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+  color: rgb(197, 143, 77); 
+  font-size: 40px;
+}
+h2{
+  color: rgb(34, 30, 30); 
+  font: 30px 'Courier New', Courier, monospace;
+}
+h3{
+  color: rgb(100, 120, 41);
+  font: 15px verdana;
+}
+p {
+  color: rgb(169, 169, 166);
+  box-sizing: border-box;
+  font: 15px Arial, Helvetica, sans-serif ;
+  text-align: center;
+  }
+
+    html, body {
+      scroll-behavior: smooth;
+    }
+  * {
+      background: rgb(100, 95, 70);
+      text-align: center;
+      margin: 10px 30px;
+    }
+    ul{
+      color: rgb(203, 135, 39);
+      }
+  .item1{
+      color:coral ;
+  }
+  .item2{
+      color: darkseagreen;
+  }
+  .item3{
+      color: rgb(36, 131, 135);
+  }
+  .header{
+      border: 5px solid black;
+      padding: 0;
+      margin: 10px;
+      width:auto ;
+  }
+  .page{
+      border: 5px solid black;
+      padding: 30px 20px;
+      margin: 10px;
+  }
+ 
+        #main{
+          margin: auto;
+          width: 1200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+
+        
+        .in_p{
+          outline: 2px solid rgb(4, 4, 4);
+          background: yellow;
+          display: table-cell;
+          font-size: 16px;
+        }
+
+        .second_u{
+          outline: 2px solid rgb(4, 4, 4);
+          display: table-cell;
+          font-size: 16px;
+        }
+
+        .second_i{
+          display: table-cell;
+          outline: 2px solid rgb(4, 4, 4);
+          font-size: 16px;
+        }
+      
+        .in_u{
+          outline: 2px solid rgb(4, 4, 4);
+          background: orange;
+          font-size: 16px;
+        }
+
+        .third1{
+          display: table-cell;
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(36, 131, 135);
+          width: 400px;
+          font-size: 16px;
+        }
+        .third2{
+          display: table-cell;
+          outline: 2px solid rgb(4, 4, 4);
+          width: 800px;
+          font-size: 16px;
+        }
+        .in_third2{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(36, 131, 135);
+        }
+        .in_third2_b{
+          
+          outline: 2px solid rgb(4, 4, 4);
+        }
+        .in_third2_b1{
+          display: table-cell;
+          outline: 2px solid rgb(4, 4, 4);
+          width: 400px;
+          background:rgb(36, 131, 135);
+        }
+
+        .fourth1{
+          outline: 2px solid rgb(4, 4, 4);
+          width: 800px;
+          display: table-cell;
+        }
+        .fourth2{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          display: table-cell;
+          width: 400px;
+
+        }
+        
+        .forth1_1{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          font-size: 16px;
+        }
+
+        .forth1_2{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          display: table-cell;
+        }
+
+        .forth1_2_1{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          font-size: 16px;
+        }
+
+        .forth1_3{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          display: table-cell;
+          font-size: 16px;
+        }
+
+        .fourth2{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          display: table-cell;
+          font-size: 16px;
+        }
+
+        .section1{
+          font-size: 0;
+        }
+        .in_p_b{
+          display: inline-block;
+          background: yellow;
+          outline: 2px solid rgb(4, 4, 4);
+          width: 400px;
+          font-size: 16px;
+        }
+
+        .section2{
+          font-size: 0;
+        }
+        .second_u_b{
+          outline: 2px solid rgb(4, 4, 4);
+          display: inline-block;
+          width: 800px;
+        }
+
+        .second_i_b{
+          display: inline-block;
+          outline: 2px solid rgb(4, 4, 4);
+          font-size: 16px;
+          width: 400px;
+        }
+      
+        .in_u_b{
+          outline: 2px solid rgb(4, 4, 4);
+          background: orange;
+          font-size: 16px;
+        }
+        
+        .section3{
+          font-size: 0;
+        }
+        .third1_b{
+          display: inline-block;
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(36, 131, 135);
+          width: 400px;
+          font-size: 16px;
+        }
+        .third2_b{
+          display: inline-block;
+          outline: 2px solid rgb(4, 4, 4);
+          width: 800px;
+          
+        }
+        .in_third2_b{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(36, 131, 135);
+          font-size: 16px;
+        }
+        .in_third2_b_b{
+          outline: 2px solid rgb(4, 4, 4);
+        }
+        .in_third2_b1_b{
+          display: inline-block;
+          outline: 2px solid rgb(4, 4, 4);
+          width: 400px;
+          background:rgb(36, 131, 135);
+          font-size: 16px;
+        }
+
+        .section4{
+          font-size: 0;
+        }
+
+        .fourth1_b{
+          outline: 2px solid rgb(4, 4, 4);
+          width: 800px;
+          display: inline-block;
+        }
+        .fourth2_b{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          display: inline-block;
+          width: 400px;
+
+        }
+        
+        .forth1_1_b{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          font-size: 16px;
+        }
+
+        .forth1_2_b{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          display: inline-block;
+        }
+
+        .forth1_2_1_b{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          font-size: 16px;
+        }
+
+        .forth1_3_b{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          display: inline-block;
+          font-size: 16px;
+        }
+
+        .fourth2_b{
+          outline: 2px solid rgb(4, 4, 4);
+          background:rgb(135, 36, 48);
+          display: inline-block;
+          font-size: 16px;
+        }
+        
