@@ -162,7 +162,6 @@ p {
         .fourth2{
           outline: 2px solid rgb(4, 4, 4);
           background:rgb(135, 36, 48);
-          display: table-cell;
           width: 400px;
 
         }
@@ -297,6 +296,7 @@ p {
           outline: 2px solid rgb(4, 4, 4);
           background:rgb(135, 36, 48);
           font-size: 16px;
+          width: 400px;
         }
 
         .forth1_3_b{
@@ -304,6 +304,7 @@ p {
           background:rgb(135, 36, 48);
           display: inline-block;
           font-size: 16px;
+          width: 400px;
         }
 
         .fourth2_b{
